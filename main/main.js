@@ -11,6 +11,7 @@ module.exports = function main(s) {
 		break;
 	}
 
-
+	console.log(sum);
 		return sum;
+	
 };
