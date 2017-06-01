@@ -3,8 +3,8 @@ module.exports = function main(s) {
 	var sum=0;
 	while(true)
 	{
-		a=num%10;
-		b=num/10;
+		var a=num%10;
+		var b=num/10;
 		sum+=a;
 	
 		if(b==0)
