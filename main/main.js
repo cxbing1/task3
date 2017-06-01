@@ -4,10 +4,10 @@ module.exports = function main(s) {
 	while(true)
 	{
 		var a=num%10;
-		var b=num/10;
+		num=num/10;
 		sum+=a;
 	
-		if(b==0)
+		if(num==0)
 		break;
 	}
 
