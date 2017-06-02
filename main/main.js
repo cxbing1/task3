@@ -1,4 +1,4 @@
- function main(s) {
+module.exports =function main(s) {
 	
   	var num=parseInt(s);
 	var sum=0;
@@ -6,7 +6,7 @@
 	{
 		var a=num%10;
 		num=num/10;
-		//num=parseInt（num);
+		num=parseInt（num);
 		sum+=a;
 	
 		if(num==0)
