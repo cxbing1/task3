@@ -5,8 +5,8 @@ module.exports =function main(s) {
 	while(true)
 	{
 		var a=num%10;
-		num=num/10;
-	//	num=parseInt（num);
+		num=Math.floor(num/10);
+		
 		sum+=a;
 	
 		if(num==0)
