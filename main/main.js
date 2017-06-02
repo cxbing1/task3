@@ -1,4 +1,5 @@
-module.exports = function main(s) {
+ function main() {
+	var s="123";
   	var num=parseInt(s);
 	var sum=0;
 	while(true)
