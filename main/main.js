@@ -14,6 +14,6 @@
 	}
 
 		//console.log(sum);
-		return sum;
+		return parseInt(sum);
 	
 };
