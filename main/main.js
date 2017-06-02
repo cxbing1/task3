@@ -5,7 +5,8 @@
 	while(true)
 	{
 		var a=num%10;
-		num=parseInt（num/10);
+		num=num/10;
+		num=parseInt（num);
 		sum+=a;
 	
 		if(num==0)
