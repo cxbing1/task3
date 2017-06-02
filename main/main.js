@@ -12,7 +12,7 @@
 		if(num==0)
 		break;
 	}
-		sum=parseInt(sum);
+		//sum=parseInt(sum);
 		//console.log(sum);
 		return sum;
 	
