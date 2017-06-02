@@ -12,8 +12,8 @@
 		if(num==0)
 		break;
 	}
-
+		sum=parseInt(sum);
 		//console.log(sum);
-		return parseInt(sum);
+		return sum;
 	
 };
